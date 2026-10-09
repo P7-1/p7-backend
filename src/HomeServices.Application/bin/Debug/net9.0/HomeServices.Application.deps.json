@@ -1,0 +1,241 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "HomeServices.Application/1.0.0-alpha": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "FluentValidation": "11.9.1",
+          "FluentValidation.DependencyInjectionExtensions": "11.9.1",
+          "HomeServices.Contracts": "1.0.0-alpha",
+          "HomeServices.Domain": "1.0.0-alpha",
+          "HomeServices.Shared": "1.0.0-alpha",
+          "MediatR": "12.3.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.20",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.20"
+        },
+        "runtime": {
+          "HomeServices.Application.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
+        }
+      },
+      "FluentValidation/11.9.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.1.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.9.1": {
+        "dependencies": {
+          "FluentValidation": "11.9.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.20"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.1.0"
+          }
+        }
+      },
+      "MediatR/12.3.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.20"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.3.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.20": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.2026.41315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/9.0.20": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.20"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.2026.41315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.20",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "HomeServices.Contracts/1.0.0-alpha": {
+        "dependencies": {
+          "HomeServices.Domain": "1.0.0-alpha",
+          "HomeServices.Shared": "1.0.0-alpha"
+        },
+        "runtime": {
+          "HomeServices.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HomeServices.Domain/1.0.0-alpha": {
+        "runtime": {
+          "HomeServices.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HomeServices.Shared/1.0.0-alpha": {
+        "runtime": {
+          "HomeServices.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeServices.Application/1.0.0-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "FluentValidation/11.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C+PqISSMdlOZZJx0Hx25atW32tv4vbpsaiQB+PLjK+ZGLzOFuHl1fUJ3Lny77mIZ31ZtYtNG0JgUjxa3wwLsWg==",
+      "path": "fluentvalidation/11.9.1",
+      "hashPath": "fluentvalidation.11.9.1.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jJbFcCWhiXhrCKFPjKihzccmosv+CleYewd2zEYS4aaUHx9zQSgOvkYbWUGTbDwJ5j2nDWE0Pr1EQ2xY4pryg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.9.1",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512"
+    },
+    "MediatR/12.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DuXRw/qux2n7pTRPond4WK9XImO+30TZrGPCeOmjYIXDWokpjZQDFRsdZMoP0WqWU7inC4m0D+Zbu5dSc4z6NQ==",
+      "path": "mediatr/12.3.0",
+      "hashPath": "mediatr.12.3.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EsRc4piTdI3Ti5+cZwdpxn+mHwDCqT+b9ecmgYTTttpHFkYDyc4CenRNC9LrU0A+lTYsbQE8EvWC6sNp1Op0YA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.20",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.20.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/9.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZTbbB2mz0MxOMVQF7/yKhRD9ok6QR5Kq+Ifsk7XfdGC3zJTfMeJZeKR8/DfnlyvrlQnaWEmMkrnM8d1sBs3afA==",
+      "path": "microsoft.extensions.logging.abstractions/9.0.20",
+      "hashPath": "microsoft.extensions.logging.abstractions.9.0.20.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "HomeServices.Contracts/1.0.0-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomeServices.Domain/1.0.0-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomeServices.Shared/1.0.0-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

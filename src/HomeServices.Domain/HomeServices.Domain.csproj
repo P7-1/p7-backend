@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HomeServices.Domain</RootNamespace>
+    <AssemblyName>HomeServices.Domain</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- Domain has ZERO external dependencies - pure C# only -->
+  <!-- This is a deliberate Clean Architecture constraint -->
+
+</Project>

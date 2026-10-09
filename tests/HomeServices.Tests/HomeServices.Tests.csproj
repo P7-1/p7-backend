@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HomeServices.Tests</RootNamespace>
+    <AssemblyName>HomeServices.Tests</AssemblyName>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <!-- Test Framework Packages -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.*" />
+    <PackageReference Include="xunit" Version="2.*" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.*">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Moq" Version="4.*" />
+    <PackageReference Include="FluentAssertions" Version="7.*" />
+    <PackageReference Include="Bogus" Version="35.*" />
+    <PackageReference Include="NetArchTest.Rules" Version="1.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="9.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.*" />
+    <PackageReference Include="coverlet.collector" Version="6.*">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <!-- Project References - Tests reference all source projects -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\HomeServices.API\HomeServices.API.csproj" />
+    <ProjectReference Include="..\..\src\HomeServices.Application\HomeServices.Application.csproj" />
+    <ProjectReference Include="..\..\src\HomeServices.Domain\HomeServices.Domain.csproj" />
+    <ProjectReference Include="..\..\src\HomeServices.Infrastructure\HomeServices.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\HomeServices.Persistence\HomeServices.Persistence.csproj" />
+    <ProjectReference Include="..\..\src\HomeServices.Contracts\HomeServices.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\HomeServices.Shared\HomeServices.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

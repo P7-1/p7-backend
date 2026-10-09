@@ -1,0 +1,9 @@
+{
+  "HomeServices.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.API",
+  "HomeServices.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Application",
+  "HomeServices.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Contracts",
+  "HomeServices.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Domain",
+  "HomeServices.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Infrastructure",
+  "HomeServices.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Persistence",
+  "HomeServices.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Shared"
+}

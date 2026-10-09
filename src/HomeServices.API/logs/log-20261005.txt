@@ -1,0 +1,6 @@
+2026-10-05 20:44:05.621 +03:00 [INF] Now listening on: https://localhost:7001
+2026-10-05 20:44:05.649 +03:00 [INF] Now listening on: http://localhost:5000
+2026-10-05 20:44:05.651 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-05 20:44:05.652 +03:00 [INF] Hosting environment: Development
+2026-10-05 20:44:05.652 +03:00 [INF] Content root path: C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.API
+2026-10-05 20:44:44.258 +03:00 [INF] Application is shutting down...

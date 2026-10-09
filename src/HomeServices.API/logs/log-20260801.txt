@@ -1,0 +1,60 @@
+2026-08-01 18:34:37.410 +03:00 [INF] Now listening on: http://localhost:5000
+2026-08-01 18:34:37.439 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-01 18:34:37.439 +03:00 [INF] Hosting environment: Production
+2026-08-01 18:34:37.440 +03:00 [INF] Content root path: C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.API
+2026-08-01 18:36:33.525 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-08-01 18:36:33.553 +03:00 [INF] Processing request GET /health
+2026-08-01 18:36:33.603 +03:00 [INF] Completed request GET /health with status code 200
+2026-08-01 18:36:33.650 +03:00 [INF] Processing request GET /favicon.ico
+2026-08-01 18:36:33.651 +03:00 [INF] Completed request GET /favicon.ico with status code 404
+2026-08-01 18:36:39.664 +03:00 [INF] Processing request GET /swagger
+2026-08-01 18:36:39.665 +03:00 [INF] Completed request GET /swagger with status code 404
+2026-08-01 18:38:21.297 +03:00 [INF] Processing request GET /
+2026-08-01 18:38:21.298 +03:00 [INF] Completed request GET / with status code 404
+2026-08-01 18:38:29.705 +03:00 [INF] Processing request GET /swagger
+2026-08-01 18:38:29.706 +03:00 [INF] Completed request GET /swagger with status code 404
+2026-08-01 18:40:05.500 +03:00 [INF] Processing request GET /swagger
+2026-08-01 18:40:05.501 +03:00 [INF] Completed request GET /swagger with status code 404
+2026-08-01 18:40:26.070 +03:00 [INF] Application is shutting down...
+2026-08-01 18:40:34.467 +03:00 [INF] Now listening on: http://localhost:5000
+2026-08-01 18:40:34.494 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-01 18:40:34.495 +03:00 [INF] Hosting environment: Development
+2026-08-01 18:40:34.495 +03:00 [INF] Content root path: C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.API
+2026-08-01 18:44:22.661 +03:00 [INF] Application is shutting down...
+2026-08-01 18:44:28.874 +03:00 [INF] Now listening on: https://localhost:7001
+2026-08-01 18:44:28.899 +03:00 [INF] Now listening on: http://localhost:5000
+2026-08-01 18:44:28.901 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-01 18:44:28.901 +03:00 [INF] Hosting environment: Development
+2026-08-01 18:44:28.901 +03:00 [INF] Content root path: C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.API
+2026-08-01 18:44:33.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger - null null
+2026-08-01 18:44:33.644 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.html - null null
+2026-08-01 18:44:33.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger - 301 0 null 14.5391ms
+2026-08-01 18:44:33.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.html - 200 null text/html;charset=utf-8 43.1447ms
+2026-08-01 18:44:33.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/swagger-ui.css - null null
+2026-08-01 18:44:33.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.css - null null
+2026-08-01 18:44:33.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/index.js - null null
+2026-08-01 18:44:33.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/swagger-ui-bundle.js - null null
+2026-08-01 18:44:33.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-01 18:44:33.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.js - 200 null application/javascript;charset=utf-8 1.4676ms
+2026-08-01 18:44:33.727 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-08-01 18:44:33.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/index.css - 200 202 text/css 17.6077ms
+2026-08-01 18:44:33.736 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-08-01 18:44:33.736 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-08-01 18:44:33.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/swagger-ui.css - 200 154948 text/css 29.4215ms
+2026-08-01 18:44:33.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 27.4667ms
+2026-08-01 18:44:33.757 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-08-01 18:44:33.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 46.7355ms
+2026-08-01 18:44:33.892 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-08-01 18:44:33.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/swagger/favicon-32x32.png - null null
+2026-08-01 18:44:33.918 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-08-01 18:44:33.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/favicon-32x32.png - 200 628 image/png 4.2477ms
+2026-08-01 18:44:33.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.729ms
+2026-08-01 18:44:37.110 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Health - null null
+2026-08-01 18:44:37.124 +03:00 [INF] Processing request GET /Health
+2026-08-01 18:44:37.127 +03:00 [INF] Executing endpoint 'HomeServices.API.Controllers.HealthController.Get (HomeServices.API)'
+2026-08-01 18:44:37.134 +03:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller HomeServices.API.Controllers.HealthController (HomeServices.API).
+2026-08-01 18:44:37.139 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-01 18:44:37.157 +03:00 [INF] Executed action HomeServices.API.Controllers.HealthController.Get (HomeServices.API) in 19.4527ms
+2026-08-01 18:44:37.158 +03:00 [INF] Executed endpoint 'HomeServices.API.Controllers.HealthController.Get (HomeServices.API)'
+2026-08-01 18:44:37.158 +03:00 [INF] Completed request GET /Health with status code 200
+2026-08-01 18:44:37.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Health - 200 null application/json; charset=utf-8; x-api-version=1.0 48.8635ms

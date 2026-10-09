@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HomeServices.Infrastructure</RootNamespace>
+    <AssemblyName>HomeServices.Infrastructure</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- Infrastructure Layer NuGet Packages -->
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="4.*" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.*" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.*" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.*" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="8.*" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="3.*" />
+    <PackageReference Include="Serilog.Enrichers.Thread" Version="4.*" />
+    <PackageReference Include="StackExchange.Redis" Version="2.*" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.*" />
+    <PackageReference Include="Hangfire" Version="1.*" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.*" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.*" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.*" />
+  </ItemGroup>
+
+  <!-- Project References - Infrastructure depends on Application, Domain, Shared -->
+  <ItemGroup>
+    <ProjectReference Include="..\HomeServices.Application\HomeServices.Application.csproj" />
+    <ProjectReference Include="..\HomeServices.Domain\HomeServices.Domain.csproj" />
+    <ProjectReference Include="..\HomeServices.Shared\HomeServices.Shared.csproj" />
+    <ProjectReference Include="..\HomeServices.Contracts\HomeServices.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

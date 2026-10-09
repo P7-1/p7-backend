@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HomeServices.Contracts</RootNamespace>
+    <AssemblyName>HomeServices.Contracts</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeServices.Domain\HomeServices.Domain.csproj" />
+    <ProjectReference Include="..\HomeServices.Shared\HomeServices.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

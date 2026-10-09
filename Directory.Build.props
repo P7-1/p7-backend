@@ -1,0 +1,30 @@
+<!-- =============================================================================
+     Directory.Build.props - Shared properties for all projects in the solution
+     This file is automatically imported by MSBuild for all projects.
+     ============================================================================= -->
+<Project>
+
+  <PropertyGroup>
+    <!-- Shared metadata -->
+    <Company>Home Services Platform</Company>
+    <Product>HomeServices</Product>
+    <Authors>Home Services Engineering Team</Authors>
+    <Copyright>Copyright © Home Services Platform $([System.DateTime]::Now.Year)</Copyright>
+
+    <!-- Code quality -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Deterministic builds for CI/CD reproducibility -->
+    <Deterministic>true</Deterministic>
+
+    <!-- Version management -->
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+  <NoWarn>$(NoWarn);NU1903;NU1608;NU1605</NoWarn><NoWarn>$(NoWarn);CA1716</NoWarn><NoWarn>$(NoWarn);CA1848;CA1861</NoWarn></PropertyGroup>
+
+</Project>

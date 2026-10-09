@@ -1,0 +1,17 @@
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\bin\Debug\net9.0\HomeServices.Contracts.deps.json
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\bin\Debug\net9.0\HomeServices.Contracts.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\bin\Debug\net9.0\HomeServices.Contracts.pdb
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\bin\Debug\net9.0\HomeServices.Domain.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\bin\Debug\net9.0\HomeServices.Shared.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\bin\Debug\net9.0\HomeServices.Domain.pdb
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\bin\Debug\net9.0\HomeServices.Shared.pdb
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServices.Contracts.csproj.AssemblyReference.cache
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServices.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServices.Contracts.AssemblyInfoInputs.cache
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServices.Contracts.AssemblyInfo.cs
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServices.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServ.4150A03E.Up2Date
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServices.Contracts.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\refint\HomeServices.Contracts.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\HomeServices.Contracts.pdb
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Contracts\obj\Debug\net9.0\ref\HomeServices.Contracts.dll

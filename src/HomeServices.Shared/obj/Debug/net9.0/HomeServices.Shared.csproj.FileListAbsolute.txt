@@ -1,0 +1,11 @@
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\HomeServices.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\HomeServices.Shared.AssemblyInfoInputs.cache
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\HomeServices.Shared.AssemblyInfo.cs
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\HomeServices.Shared.csproj.CoreCompileInputs.cache
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\bin\Debug\net9.0\HomeServices.Shared.deps.json
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\bin\Debug\net9.0\HomeServices.Shared.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\bin\Debug\net9.0\HomeServices.Shared.pdb
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\HomeServices.Shared.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\refint\HomeServices.Shared.dll
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\HomeServices.Shared.pdb
+C:\Users\felop\.gemini\antigravity\scratch\home-services-platform\apps\backend\src\HomeServices.Shared\obj\Debug\net9.0\ref\HomeServices.Shared.dll

@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "HomeServices.Domain/1.0.0-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HomeServices.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeServices.Domain.dll": {}
+        }
+      },
+      "HomeServices.Shared/1.0.0-alpha": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HomeServices.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeServices.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeServices.Domain/1.0.0-alpha": {
+      "type": "project",
+      "path": "../HomeServices.Domain/HomeServices.Domain.csproj",
+      "msbuildProject": "../HomeServices.Domain/HomeServices.Domain.csproj"
+    },
+    "HomeServices.Shared/1.0.0-alpha": {
+      "type": "project",
+      "path": "../HomeServices.Shared/HomeServices.Shared.csproj",
+      "msbuildProject": "../HomeServices.Shared/HomeServices.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "HomeServices.Domain >= 1.0.0-alpha",
+      "HomeServices.Shared >= 1.0.0-alpha"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\felop\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0-alpha",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Contracts\\HomeServices.Contracts.csproj",
+      "projectName": "HomeServices.Contracts",
+      "projectPath": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Contracts\\HomeServices.Contracts.csproj",
+      "packagesPath": "C:\\Users\\felop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\felop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Domain\\HomeServices.Domain.csproj": {
+              "projectPath": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Domain\\HomeServices.Domain.csproj"
+            },
+            "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Shared\\HomeServices.Shared.csproj": {
+              "projectPath": "C:\\Users\\felop\\.gemini\\antigravity\\scratch\\home-services-platform\\apps\\backend\\src\\HomeServices.Shared\\HomeServices.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "noWarn": [
+          "NU1605",
+          "NU1608",
+          "NU1903"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
